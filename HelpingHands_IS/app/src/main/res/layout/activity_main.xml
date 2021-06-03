@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:rotation="360"
+    android:rotationX="-360"
+    android:rotationY="-360">
+
+    <Button
+        android:id="@+id/getloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get My Location"
+
+        />
+
+    <Button
+        android:id="@+id/hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Nearby Hospitals" />
+
+    <Button
+        android:id="@+id/oxygen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get nearby Oxygen Vendors" />
+
+</LinearLayout>
